@@ -11,13 +11,15 @@
 Desenvolvimento Nativo - Android
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EQQagKd5QyBFlIyt69R0CqMByWRDk5wZ_Ds26SkLR4TVJQ?e=4Dv3fq">Aula 1 </a> - Introdução </p>
 
-<!--
 
 
 <br>
 Aula 2 - Interface Gráfica
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EcbBlMxKehlAjm3CZZXNpvoBiFaHFRwsa5MEH58wTxqgMA?e=zKIFIV">Aula 2.1 </a> - Layout </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/ERcygjbYBpNBhUQSmCkbVSwBOTDK43fmJhAHD1rm-DV15w?e=i11CFo">Aula 2.2 </a> - Tarefa 1 (Layout) </p>
+
+<!--
+
 
 <br>
 Aula 3 - Componentes Gráficos
