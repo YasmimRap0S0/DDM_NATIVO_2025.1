@@ -4,7 +4,7 @@ Este repositório reúne projetos e materiais relacionados à disciplina de **Di
 
 ## 📖 Projeto 1: Aplicativo de Registro de Leituras  
 O objetivo do projeto é desenvolver um aplicativo que permita:
-- Registrar livros como **Lidos**, **Lendo** ou **A**.
+- Registrar livros como **Lidos**, **Lendo** ou **Deixado de lado**.
 - Definir metas de leitura
 - Receber recomendações de livros de diversos gêneros literários
 - Avaliar livros
