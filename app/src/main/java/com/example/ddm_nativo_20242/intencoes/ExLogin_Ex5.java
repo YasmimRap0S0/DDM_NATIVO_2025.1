@@ -17,7 +17,7 @@ public class ExLogin_Ex5 extends Activity {
         //Ex salvar estado de objtos: para o caso de rotacionar, a lista de objetos precisa ser salva
         //estado.putSerializable("minha_lista", lista_encadeada_serializada);
 
-        setContentView(R.layout.activity_ex_login_ex5);
+        setContentView(R.layout.activity_ex_login_yasmim);
         EditText campoNome = findViewById(R.id.campoNome);
         EditText campoSenha = findViewById(R.id.campoSenha);
         Button b = findViewById(R.id.botaoEnviar);
