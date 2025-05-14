@@ -67,7 +67,7 @@ public class ListarSensoresDisponiveis extends AppCompatActivity {
             public void onAccuracyChanged(Sensor s, int precisao) {
                 Log.i("SEN", s.toString());
             }
-        }, s.get(i.getItemId()), sm.SENSOR_DELAY_NORMAL);
+        }, s.get(i.getItemId()), SensorManager.SENSOR_DELAY_NORMAL);
 
         return super.onContextItemSelected(i);
     }

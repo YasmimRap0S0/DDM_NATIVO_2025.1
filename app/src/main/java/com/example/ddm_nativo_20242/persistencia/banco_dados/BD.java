@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BD {
-    private SQLiteDatabase bd;
+    private final SQLiteDatabase bd;
 
     public BD(Context c){
 
@@ -54,7 +54,7 @@ public class BD {
 
     public boolean buscar(Aluno a){
         String[] colunas = new String[]{"_id","matricula","nome"};
-        Cursor c = bd.query("aluno", colunas, "matricula = \'"+a.getMatricula()+"\' and nome = \'"+a.getNome()+"\'", null, null,null, "nome ASC");
+        Cursor c = bd.query("aluno", colunas, "matricula = '" +a.getMatricula()+ "' and nome = '" +a.getNome()+ "'", null, null,null, "nome ASC");
 
         if(c.getCount() > 0){
             System.out.println("Já Existe");

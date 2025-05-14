@@ -13,7 +13,7 @@ public class MensagemHandler extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mensagem_handler);
-        tv = (TextView) findViewById(R.id.tv);
+        tv = findViewById(R.id.tv);
 
         Handler h = new Handler(getMainLooper()){
             public void handleMessage(Message m){

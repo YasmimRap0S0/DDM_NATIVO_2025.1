@@ -9,10 +9,11 @@ import android.view.View;
 public class Tela extends View implements Runnable{
     private float x = 500;
     private float y = 500;
-    private float xB = 100, yB = 100;
-    private float TAMANHO = 50;
-    private float x0 = TAMANHO;
-    private float y0 = TAMANHO;
+    private final float xB = 100;
+    private float yB = 100;
+    private final float TAMANHO = 50;
+    private final float x0 = TAMANHO;
+    private final float y0 = TAMANHO;
 
     public Tela(Context c){
         super(c);

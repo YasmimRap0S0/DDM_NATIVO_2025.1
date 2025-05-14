@@ -33,8 +33,8 @@ public class ExGPS extends AppCompatActivity {
         lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10, 1, new LocationListener() {
             @Override
             public void onLocationChanged(@NonNull Location l) {
-                lat.setText("Lat: "+String.valueOf(l.getLatitude()));
-                lon.setText("Lon: "+String.valueOf(l.getLongitude()));
+                lat.setText("Lat: "+ l.getLatitude());
+                lon.setText("Lon: "+ l.getLongitude());
             }
         });
     }

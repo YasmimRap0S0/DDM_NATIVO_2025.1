@@ -3,7 +3,7 @@ import android.os.Handler;
 import android.os.Message;
 
 public class MinhaThread extends Thread{
-    private Handler h;
+    private final Handler h;
     public MinhaThread(Handler h){
         this.h = h;
     }

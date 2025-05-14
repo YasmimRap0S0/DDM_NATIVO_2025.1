@@ -17,7 +17,7 @@ public class Servidor {
             while(true){
                 Socket s = ss.accept();
                 OutputStream os = s.getOutputStream();
-                String str = new String("Mensagem "+i+".");
+                String str = "Mensagem " + i + ".";
                 byte[] b = str.getBytes();
                 os.write(b);
                 os.close();
@@ -29,7 +29,7 @@ public class Servidor {
         }
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         new Servidor();
     }
 }

@@ -45,7 +45,7 @@ public class ExArquivos extends Activity {
 
                 ga.gravarNoArquivo(i);
                 buf[contador] = i;
-                aux = aux.concat(""+ i);
+                aux = aux.concat(String.valueOf(i));
 
                 eof[0] = eof[1];
                 eof[1] = eof[2];
@@ -64,7 +64,7 @@ public class ExArquivos extends Activity {
 
             ga.fecharArquivo();
 
-            byte imagem[] = new byte[contador*4];
+            byte[] imagem = new byte[contador*4];
             int cont = 0;
             for(int x = 0; x < contador;x++) {
 

@@ -19,8 +19,8 @@ public class TelaAcessoAPI extends AppCompatActivity {
         setContentView(R.layout.activity_tela_acesso_api);
 
         new Thread(new Runnable() {
-            TextView tv = findViewById(R.id.tv);
-            StringBuffer buffer = new StringBuffer();
+            final TextView tv = findViewById(R.id.tv);
+            final StringBuffer buffer = new StringBuffer();
             @Override
             public void run() {
 

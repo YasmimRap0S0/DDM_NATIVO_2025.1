@@ -16,7 +16,7 @@ public class TelaEnviaParametros_Ex4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_envia_parametros_ex4);
 
-        Button b = (Button) findViewById(R.id.botao);
+        Button b = findViewById(R.id.botao);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

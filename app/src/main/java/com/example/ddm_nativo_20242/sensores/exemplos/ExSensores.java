@@ -66,6 +66,6 @@ public class ExSensores extends AppCompatActivity {
             public void onAccuracyChanged(Sensor s, int precisao) {
                 Log.i("SEN", s.toString());
             }
-        }, s, sm.SENSOR_DELAY_NORMAL);
+        }, s, SensorManager.SENSOR_DELAY_NORMAL);
     }
 }
