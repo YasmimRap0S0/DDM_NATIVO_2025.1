@@ -18,13 +18,13 @@ Aula 2 - Interface Gráfica
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EcbBlMxKehlAjm3CZZXNpvoBiFaHFRwsa5MEH58wTxqgMA?e=zKIFIV">Aula 2.1 </a> - Layout </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/ERcygjbYBpNBhUQSmCkbVSwBOTDK43fmJhAHD1rm-DV15w?e=i11CFo">Aula 2.2 </a> - Tarefa 1 (Layout) </p>
 
-<!--
-
-
 <br>
+
 Aula 3 - Componentes Gráficos
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EUxCKKcVyS9PnUtZUEfrk_ABLVcuH7zkRqdTxQ0QlCEX3w?e=QsdruV">Aula 3.1 </a> - Componentes Gráficos </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EVNvH_0A89tDuxuX1QN_tbEB3lXD2QyLetaKKQ4MWxJ_XA?e=HSR4VI">Aula 3.2 </a> - Componentes Gráficos Customizados </p>
+
+<!--
 
 <br>
 Aula 4 - Eventos de UI
