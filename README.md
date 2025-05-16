@@ -24,11 +24,13 @@ Aula 3 - Componentes Gráficos
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EUxCKKcVyS9PnUtZUEfrk_ABLVcuH7zkRqdTxQ0QlCEX3w?e=QsdruV">Aula 3.1 </a> - Componentes Gráficos </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EVNvH_0A89tDuxuX1QN_tbEB3lXD2QyLetaKKQ4MWxJ_XA?e=HSR4VI">Aula 3.2 </a> - Componentes Gráficos Customizados </p>
 
-<!--
-
 <br>
+
 Aula 4 - Eventos de UI
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/Ed1SED0TyJ5Oh8JDCrp4JLUBTFTbN1OKtlPmS79C64wrkg?e=M16M9Y">Aula 4.1 </a> - Tratamento de Eventos </p>
+
+<!--
+
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/Eapn9KhQz-JGq2izFe7YS7wBNbLJcX9kTXeyLNkxDR2cmg?e=6O2KSw">Aula 4.2 </a> - Intent </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EXfBEpH4fk5PkKWLCuwHMXgB_59Z9nu2wDFNAcR1Y8ZL2A?e=he9AA3">Aula 4.3 </a> - Threads e Handlers </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/ETTqwv0w7fBKh-jI1CP6wA0BGcMM8-vNMJAlOKZw6JG0Gg?e=8pKuTg">Aula 4.4 </a> - Tarefa 2 (Implementação UI) </p>
