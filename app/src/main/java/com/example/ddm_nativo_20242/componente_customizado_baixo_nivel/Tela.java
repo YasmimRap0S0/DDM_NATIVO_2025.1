@@ -6,6 +6,8 @@ import android.graphics.Paint;
 import android.view.MotionEvent;
 import android.view.View;
 
+import com.example.ddm_nativo_20242.R;
+
 public class Tela extends View implements Runnable{
     private float x = 500;
     private float y = 500;
@@ -21,8 +23,9 @@ public class Tela extends View implements Runnable{
     public void onDraw(Canvas c){
         super.onDraw(c);
         Paint p = new Paint();
-        p.setColor(Color.BLUE);
+        p.setColor(getContext().getColor(R.color.black));
         c.drawRect(x,y,x+TAMANHO,y+TAMANHO,p);
+
         p.setColor(Color.GREEN);
         c.drawCircle(xB, yB, TAMANHO, p);
     }

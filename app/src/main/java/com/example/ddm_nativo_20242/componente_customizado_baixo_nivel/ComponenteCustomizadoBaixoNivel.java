@@ -8,7 +8,7 @@ public class ComponenteCustomizadoBaixoNivel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Tela t = new Tela(this);
-        setContentView(t);
+        //setContentView(t);
 
         //passo 4
         new Thread(t).start();

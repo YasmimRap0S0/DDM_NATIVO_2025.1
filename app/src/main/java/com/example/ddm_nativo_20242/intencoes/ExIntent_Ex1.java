@@ -17,7 +17,7 @@ public class ExIntent_Ex1 extends AppCompatActivity {
 
         //exemplos de intenções
         //abrir navegador
-        /*-Uri u = Uri.parse("https://www.ifrn.edu.br");
+        /*Uri u = Uri.parse("https://www.ifrn.edu.br");
         Intent i = new Intent(Intent.ACTION_VIEW, u);
         startActivity(i);*/
 
