@@ -32,6 +32,8 @@ Aula 4 - Eventos de UI
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EXfBEpH4fk5PkKWLCuwHMXgB_59Z9nu2wDFNAcR1Y8ZL2A?e=he9AA3">Aula 4.3 </a> - Threads e Handlers </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EcCm_DXYb5dFll3xDauBmccBD8df_Dznk2Y5H2__4EPxtQ?e=oLh9Bb">Aula 4.4 </a> - Tarefa 2 (Eventos) </p>
 
+<br>
+
 Aula 5 - Conectividade e Persistência
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EbgmAdgcDgpKvdEAxIe3XPkBxgpXwAGcx93HI8mUjhW-CA?e=y4IcOM">Aula 5.1 </a> - Comunicação </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EV75v4N3OgBOntUlItjdRzkBXVPm1YuEpnirNFq0faMnFw?e=XkhUr7">Aula 5.2 </a> - Representação de Dados </p>
