@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pagina_inicial_do_user"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="730dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="top|left"
+        android:background="#6049AF"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="156.76dp"
+        android:layout_height="25dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="8.47dp"
+        android:layout_marginBottom="-2.62dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="ENTRELINHAS"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="74dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/iconprofile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@user2345"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="135dp"
+        android:layout_height="78dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="210dp"
+        android:background="#C3B8E0"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="138dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="427dp"
+        android:layout_gravity="top|left"
+        android:background="#C3B8E0"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="135dp"
+        android:layout_height="209dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="183dp"
+        android:layout_marginTop="210dp"
+        android:background="#4958AF"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Livros lidos"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="249dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="0 livro(s)"
+        android:textColor="#FF000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="222dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Dias de leitura"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="249dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="0 dia(s)"
+        android:textColor="#FF000000"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="136dp"
+        android:layout_height="209dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="296dp"
+        android:layout_gravity="top|left"
+        android:background="#8FAF49"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="308dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Páginas lidas"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="335dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="0 páginas(s)"
+        android:textColor="#FF000000"
+        android:textSize="12dp" />
+
+
+    <LinearLayout
+        android:layout_width="282dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="529dp"
+        android:layout_gravity="top|left"
+        android:background="#AE7D93"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="187dp"
+        android:layout_marginTop="436dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Avaliações"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="187dp"
+        android:layout_marginTop="471dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Nenhuma avaliação"
+        android:textColor="#FF000000"
+        android:textSize="12dp" />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="539dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="0 anotações"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:background="#4E566F"
+        />
+
+    <ImageView
+        android:id="@+id/iv_light_theme_icon"
+        android:layout_width="162dp"
+        android:layout_height="55dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="680dp"
+        android:background="@drawable/recroxo"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/iv_purple_theme_icon"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="680dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/recclaro"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/iv_profile_icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="680dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/iconperfil2" />
+
+    <ImageView
+        android:id="@+id/icon_registros"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="680dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/registericon" />
+
+    <ImageView
+        android:id="@+id/iv_explorer_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="169dp"
+        android:layout_marginTop="680dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/explorericon" />
+
+
+</FrameLayout>
