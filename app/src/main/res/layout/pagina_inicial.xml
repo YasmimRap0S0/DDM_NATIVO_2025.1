@@ -40,6 +40,7 @@
         android:src="@drawable/iconprofile" />
 
     <TextView
+        android:id="@+id/textUsername"
         android:layout_width="wrap_content"
         android:layout_height="21dp"
         android:layout_marginLeft="132dp"
@@ -93,6 +94,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="Livros lidos"
+        android:background="@android:color/transparent"
         android:textColor="#FF000000"
         android:textSize="16dp" />
 
@@ -106,6 +108,7 @@
         android:includeFontPadding="false"
         android:maxLines="1"
         android:singleLine="true"
+        android:background="@android:color/transparent"
         android:text="0 livro(s)"
         android:textColor="#FF000000"
         android:textSize="12dp" />
@@ -121,6 +124,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="Dias de leitura"
+        android:background="@android:color/transparent"
         android:textColor="#FF000000"
         android:textSize="16dp" />
 
@@ -134,6 +138,7 @@
         android:includeFontPadding="false"
         android:maxLines="1"
         android:singleLine="true"
+        android:background="@android:color/transparent"
         android:text="0 dia(s)"
         android:textColor="#FF000000"
         android:textSize="12dp" />
@@ -158,6 +163,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="Páginas lidas"
+        android:background="@android:color/transparent"
         android:textColor="#FF000000"
         android:textSize="16dp" />
 
@@ -172,6 +178,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="0 páginas(s)"
+        android:background="@android:color/transparent"
         android:textColor="#FF000000"
         android:textSize="12dp" />
 
@@ -196,6 +203,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="Avaliações"
+        android:background="@android:color/transparent"
         android:textColor="#FF000000"
         android:textSize="16dp" />
 
@@ -210,6 +218,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="Nenhuma avaliação"
+        android:background="@android:color/transparent"
         android:textColor="#FF000000"
         android:textSize="12dp" />
 
@@ -228,6 +237,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="0 anotações"
+        android:background="@android:color/transparent"
         android:textColor="#FF000000"
         android:textSize="16dp" />
 

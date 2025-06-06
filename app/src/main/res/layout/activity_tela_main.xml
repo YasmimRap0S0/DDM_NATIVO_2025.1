@@ -24,6 +24,7 @@
         android:layout_marginLeft="35dp"
         android:text="ENTRELINHAS"
         android:textColor="#FFFFFF"
+        android:background="@android:color/transparent"
         android:textSize="32sp"
         android:textStyle="bold" />
 </RelativeLayout>

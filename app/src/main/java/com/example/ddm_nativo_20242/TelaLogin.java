@@ -20,6 +20,8 @@ public class TelaLogin extends AppCompatActivity {
         EditText emailInput = findViewById(R.id.emailInput);
         EditText senhaInput = findViewById(R.id.senhaInput);
         Button buttonLogin = findViewById(R.id.buttonLogin);
+        Button buttonRegister = findViewById(R.id.buttonRegister);
+
 
 
         buttonLogin.setOnClickListener(new View.OnClickListener() { //Evento no botão
@@ -38,11 +40,24 @@ public class TelaLogin extends AppCompatActivity {
                     senhaInput.setError("Por favor, insira sua senha.");
                     return;
                 }
-                piscarBotao(buttonLogin); //chamada do metodo
+
+                // Extrai o nome de usuário (parte antes do @)
+                String username = email.split("@")[0];
+
+                piscarBotao(buttonLogin, username); // Passa o username tambem
             }
         });
-    }
-    private void piscarBotao(Button button) { // método
+
+    //  listener para o botão de registro
+        buttonRegister.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(TelaLogin.this, TelaCadastro.class);
+            startActivity(intent);
+        }
+    });
+}
+    private void piscarBotao(Button button, String username) { // método
         // A ideia é que ao clicar no botão, ele fica numa cor laranja
         button.setBackgroundColor(Color.parseColor("#FFA500"));
 
@@ -57,6 +72,7 @@ public class TelaLogin extends AppCompatActivity {
 
                 // Aproveita o metodo para migrar para outra tela
                 Intent intent = new Intent(TelaLogin.this, PaginaUser1.class);
+                intent.putExtra("USERNAME", username); // Adiciona o username ao Intent
                 startActivity(intent);
 
             }

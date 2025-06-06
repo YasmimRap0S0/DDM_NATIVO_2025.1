@@ -22,6 +22,7 @@
         android:textSize="32sp"
         android:textColor="#4958AF"
         android:textStyle="bold"
+        android:background="#FFFFFF"
         android:layout_gravity="center"
         android:layout_marginBottom="49dp"/>
 
@@ -61,6 +62,7 @@
         android:layout_marginBottom="60dp"
         android:text="Esqueceu sua senha?"
         android:textColor="#8790AF"
+        android:background="#FFFFFF"
         android:textSize="14sp" />
 
     <Button
@@ -75,12 +77,15 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp" />
 
-    <TextView
+    <Button
+        android:id="@+id/buttonRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Não tem uma conta? Registre-se"
         android:textSize="14sp"
         android:textColor="#5C54A5"
-        android:layout_gravity="center"/>
+        android:background="@android:color/transparent"
+        android:padding="8dp"/>
 
 </LinearLayout>
